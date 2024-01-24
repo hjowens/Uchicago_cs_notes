@@ -27,3 +27,5 @@ Search vs Traversal:
 
 - Traversals aim to traverse as much of the graph as possible.
 - Searches tend to be looking for something on the graph.
+
+Exmaine course textbook for "anatomy of recursive functions"
