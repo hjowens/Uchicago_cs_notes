@@ -16,3 +16,5 @@ Algorithm:
 Start node -> mark explored and add all connected nodes to frontier -> go to first frontier node -> Mark explored and add all connected nodes to frontier
 
 Note: frontier and explored should be global variables in this context. 
+
+Look into priority queue module and data structure.
