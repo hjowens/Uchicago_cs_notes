@@ -6,9 +6,9 @@ Functional Programming
 
 Functions:
 
-- Can pass functions as parameters. See example notes.
+- Higher order functions- we are able to pass functions as parameters. See example notes.
 - def "__repr__" method gives a string representation of an object. Very similar to "__str__"
 - Operations on datastructures don't have to have side effects. Imperative would modify the datastructure directly, while functional keeps the original and returns a copy with modifications; this way the return value can be passed into other functions.
-- When passing in functions, Use "Callable[parameters]" for type checking. See example notes.
+- When passing in functions, Use "Callable[[parameters], return type]" for type checking. See example notes.
 - Can also pass transformations using "lambdas" with just the base operations used in the parameter. Lambda is similar to the arrow functions in javascript, making it simple to define and pass functions. See example notes. 
-- We can use the "map()" function to essentially make a dataset/datastructure in memory with all of the data of the dataset passed into the map. This new map has no type and can be operated on or assigned a type. See example notes and online documentation.
+- We can use the "map()" function to essentially make a dataset/datastructure in memory with all of the data of the dataset passed into the map. This new map has no type and can be operated on or assigned a type. See example notes and online documentation. The map() can take a function as a parameter, operating on every member of the datastructure passed into the function with the function to create the new map.
